@@ -142,7 +142,7 @@ const Login = () => {
       ),
     });
     try {
-      const res = await axios.post('http://localhost:8000/api/login/', {
+      const res = await axios.post('http://127.0.0.1:4040/api/login/', {
         email: form.email,
         password: form.password,
       });
